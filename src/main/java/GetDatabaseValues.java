@@ -32,7 +32,7 @@ public class GetDatabaseValues {
             // While Loop to iterate through all data and print results
             while (rs.next()) {
                 String first_name = rs.getString(1);
-                String last_name = rs.getString(2)
+                String last_name = rs.getString(2);
 
                 System.out.println(" " +first_name+" "+last_name);
             }
