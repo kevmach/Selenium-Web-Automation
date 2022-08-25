@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllTestsSuite">
+    <test name="Testing Annotations Test">
+        <classes>
+            <class name="Mytest">
+                <methods>
+                    <include name="Login"></include>
+                    <include name="FetchApparels"></include>
+                    <include name="AddtoCart"></include>
+                    <include name="VerifyTotalCost"></include>
+                    <include name="PlaceOrders"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
